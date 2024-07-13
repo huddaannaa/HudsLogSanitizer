@@ -1,0 +1,24 @@
+# YOU CAN COMMENT OUT WITH "#" TO EXCLUDE ANALOGIES
+# NOTE: PLEASE DO NOT LEAVE SPACE, LEAVE "#" INSTEAD
+#
+# IMPORTANT:
+# If you know the sample text you want to change
+# create a key and assign the text as a value
+# example: word = bridge, where word is key $ brige si the value
+# hence if it is a word that changes, you can also define a pattern
+#
+# #################
+# MAKE CHANGES HERE
+# #################
+#
+# GENERIC (Applies to most logs)
+strings=\b\w+\b
+ip=\b\d+\.\d+\.\d+\.\d+\b
+# emails=\b[\d\w\.]+@[\d\w\.]+\.[\w\.]+\b
+#
+# FOR WINDOWS LOGS
+username=\bSIT[\d\w]+\b
+#userid=\d{7}
+#useridd=\d{5}
+deploymentid=\d+-\d+-\d+-\d+
+service=\w+_[\w\d]+
