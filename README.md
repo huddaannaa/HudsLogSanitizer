@@ -4,36 +4,53 @@
 
 ## Table of Contents
 
-1. [Software Requirements](#software-requirements)
-2. [About the Program](#about-the-program)
-3. [Getting Started](#getting-started)
+1. [Introduction](#introduction)
+2. [Benefits of Log Sanitization in Cyber Security](#benefits-of-log-sanitization-in-cyber-security)
+3. [Software Requirements](#software-requirements)
+4. [About the Program](#about-the-program)
+5. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-4. [Directory Structure](#directory-structure)
+6. [Directory Structure](#directory-structure)
    - [Directory Details](#directory-details)
-5. [Usage](#usage)
+7. [Usage](#usage)
    - [Command-Line Arguments](#command-line-arguments)
    - [Example Usage](#example-usage)
-6. [Configuration](#configuration)
+8. [Configuration](#configuration)
    - [Vocabulary Configuration](#vocabulary-configuration)
    - [Topology Configuration](#topology-configuration)
-7. [Onboarding New Parsers](#onboarding-new-parsers)
+9. [Onboarding New Parsers](#onboarding-new-parsers)
    - [Step 1: Define Regex Pattern](#step-1-define-regex-pattern)
    - [Step 2: Create Topology](#step-2-create-topology)
    - [Step 3 (Optional): Modify Definitions](#step-3-optional-modify-definitions)
-8. [Best Practices for Security Tools Documentation](#best-practices-for-security-tools-documentation)
-9. [Troubleshooting](#troubleshooting)
+10. [Best Practices for Security Tools Documentation](#best-practices-for-security-tools-documentation)
+11. [Troubleshooting](#troubleshooting)
     - [Common Issues](#common-issues)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [Contact](#contact)
+12. [Contributing](#contributing)
+13. [License](#license)
+14. [Contact](#contact)
 
 ---
 
+## Introduction
 
+Hud-Log-Sanitizer (HLS v2.0) is a powerful log sanitization tool designed to enhance data security for organizations handling sensitive log data. In the era of increasing cyber threats, ensuring that sensitive information within log files is protected before sharing or analyzing externally is crucial. This tool helps by sanitizing log files, removing or obfuscating sensitive information, making it safe for external/public use without compromising security.
+
+## Benefits of Log Sanitization in Cyber Security
+
+Log sanitization plays a critical role in maintaining the confidentiality and integrity of an organization's data. Here are some of the key benefits:
+
+1. **Data Privacy:** Sanitizing logs helps protect sensitive information such as IP addresses, user credentials, and other personal data from unauthorized access.
+2. **Compliance:** Ensures adherence to regulatory requirements and standards such as GDPR, HIPAA, and other data protection laws by masking or removing sensitive information from logs.
+3. **Security:** Reduces the risk of data breaches by ensuring that logs do not contain exploitable information that could be used by attackers.
+4. **Data Sharing:** Enables safe sharing of logs with third parties, such as consultants or partners, by removing sensitive information that could compromise security.
+5. **Incident Response:** Sanitized logs can be used in incident response without exposing sensitive data, facilitating quicker and safer analysis.
+
+By implementing log sanitization, organizations can significantly enhance their cybersecurity posture and ensure that sensitive information is protected at all stages of log management.
 
 ## Software Requirements
-- UNIX
+
+- UNIX-based operating system
 - Python
 
 ## About the Program
