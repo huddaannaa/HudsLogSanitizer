@@ -1,4 +1,4 @@
-# Hud-Log-Sanitizer Documentation
+# Huds-Log-Sanitizer Documentation
 
 ## Table of Contents
 
