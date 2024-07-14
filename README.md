@@ -2,37 +2,33 @@
 
 ## Table of Contents
 
-1. [Author](#author)
-2. [Software Requirements](#software-requirements)
-3. [About the Program](#about-the-program)
-4. [Getting Started](#getting-started)
+1. [Software Requirements](#software-requirements)
+2. [About the Program](#about-the-program)
+3. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-5. [Directory Structure](#directory-structure)
+4. [Directory Structure](#directory-structure)
    - [Directory Details](#directory-details)
-6. [Usage](#usage)
+5. [Usage](#usage)
    - [Command-Line Arguments](#command-line-arguments)
    - [Example Usage](#example-usage)
-7. [Configuration](#configuration)
+6. [Configuration](#configuration)
    - [Vocabulary Configuration](#vocabulary-configuration)
    - [Topology Configuration](#topology-configuration)
-8. [Onboarding New Parsers](#onboarding-new-parsers)
+7. [Onboarding New Parsers](#onboarding-new-parsers)
    - [Step 1: Define Regex Pattern](#step-1-define-regex-pattern)
    - [Step 2: Create Topology](#step-2-create-topology)
    - [Step 3 (Optional): Modify Definitions](#step-3-optional-modify-definitions)
-9. [Best Practices for Security Tools Documentation](#best-practices-for-security-tools-documentation)
-10. [Troubleshooting](#troubleshooting)
+8. [Best Practices for Security Tools Documentation](#best-practices-for-security-tools-documentation)
+9. [Troubleshooting](#troubleshooting)
     - [Common Issues](#common-issues)
-11. [Contributing](#contributing)
-12. [License](#license)
-13. [Contact](#contact)
+10. [Contributing](#contributing)
+11. [License](#license)
+12. [Contact](#contact)
 
 ---
 
-## Author
-**Designed and developed by:**  
-Hud Seidu Daannaa  
-[www.daannaa.space](http://www.daannaa.space)
+
 
 ## Software Requirements
 - UNIX
