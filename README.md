@@ -263,4 +263,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For any inquiries, please contact:
 Hud Seidu Daannaa  
 [www.daannaa.space](http://www.daannaa.space)  
-[Email](mailto:info@daannaa.space)
+[Email](mailto:hdaannaa@gmail.com)
