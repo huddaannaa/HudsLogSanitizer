@@ -1,5 +1,7 @@
 # Huds-Log-Sanitizer Documentation
 
+![HLST](./hudslogsanitizer.png)
+
 ## Table of Contents
 
 1. [Software Requirements](#software-requirements)
